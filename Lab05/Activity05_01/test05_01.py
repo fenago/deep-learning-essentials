@@ -13,7 +13,7 @@ class Test(unittest.TestCase):
 		import Activity05_01
 		self.exercises = Activity05_01
 
-		self.file_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-TensorFlow-Workshop/master/Chapter05/dataset/letter-recognition.data'
+		self.file_url = 'https://raw.githubusercontent.com/fenago/deep-learning-essentials/main/Lab05/dataset/letter-recognition.data'
 		self.data = pd.read_csv(self.file_url, header=None)
 		self.target = self.data.pop(0)
 

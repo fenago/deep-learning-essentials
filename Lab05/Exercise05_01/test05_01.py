@@ -13,8 +13,8 @@ class Test(unittest.TestCase):
 		import Exercise05_01
 		self.exercises = Exercise05_01
 
-		self.train_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-TensorFlow-Workshop/master/Chapter05/dataset/dota2Train.csv'
-		self.test_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-TensorFlow-Workshop/master/Chapter05/dataset/dota2Test.csv'
+		self.train_url = 'https://raw.githubusercontent.com/fenago/deep-learning-essentials/main/Lab05/dataset/dota2Train.csv'
+		self.test_url = 'https://raw.githubusercontent.com/fenago/deep-learning-essentials/main/Lab05/dataset/dota2Test.csv'
 
 		self.X_train = pd.read_csv(self.train_url, header=None)
 		self.y_train = self.X_train.pop(0)

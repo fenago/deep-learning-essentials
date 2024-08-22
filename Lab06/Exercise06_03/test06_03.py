@@ -39,7 +39,7 @@ class Test(unittest.TestCase):
 		import Exercise06_03
 		self.exercises = Exercise06_03
 
-		self.file_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-TensorFlow-Workshop/master/Chapter06/dataset/connect-4.csv'
+		self.file_url = 'https://raw.githubusercontent.com/fenago/deep-learning-essentials/main/Lab06/dataset/connect-4.csv'
 
 		self.data = pd.read_csv(self.file_url)
 		self.target = self.data.pop('class')

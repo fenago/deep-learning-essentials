@@ -14,15 +14,15 @@ class Test(unittest.TestCase):
 		import Exercise05_02
 		self.exercises = Exercise05_02
 
-		self.train_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-TensorFlow-Workshop/master/Chapter05/dataset/dota2PreparedTrain.csv'
-		self.test_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-TensorFlow-Workshop/master/Chapter05/dataset/dota2PreparedTest.csv'
+		self.train_url = 'https://raw.githubusercontent.com/fenago/deep-learning-essentials/main/Lab05/dataset/dota2PreparedTrain.csv'
+		self.test_url = 'https://raw.githubusercontent.com/fenago/deep-learning-essentials/main/Lab05/dataset/dota2PreparedTest.csv'
 
 		self.X_train = pd.read_csv(self.train_url, header=None)
 		self.y_train = self.X_train.pop(0)
 		self.X_test = pd.read_csv(self.test_url, header=None)
 		self.y_test = self.X_test.pop(0)
 
-		self.model_url = 'https://github.com/PacktWorkshops/The-TensorFlow-Workshop/blob/master/Chapter05/model/exercise5_01_model.h5?raw=true'
+		self.model_url = 'https://github.com/fenago/deep-learning-essentials/blob/main/Lab05/model/exercise5_01_model.h5?raw=true'
 		self.model_path = get_file('exercise5_01_model.h5', self.model_url)
 
 		np.random.seed(8)

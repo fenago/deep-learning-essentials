@@ -14,8 +14,8 @@ class Test(unittest.TestCase):
 		self.exercises = Activity06_01
 
 		self.usecols = ['AAGE','ADTIND','ADTOCC','SEOTR','WKSWORK', 'PTOTVAL']
-		self.train_url = 'https://github.com/PacktWorkshops/The-TensorFlow-Workshop/blob/master/Chapter06/dataset/census-income-train.csv?raw=true'
-		self.test_url = 'https://github.com/PacktWorkshops/The-TensorFlow-Workshop/blob/master/Chapter06/dataset/census-income-test.csv?raw=true'
+		self.train_url = 'https://github.com/fenago/deep-learning-essentials/blob/main/Lab06/dataset/census-income-train.csv?raw=true'
+		self.test_url = 'https://github.com/fenago/deep-learning-essentials/blob/main/Lab06/dataset/census-income-test.csv?raw=true'
 
 		self.train_data = pd.read_csv(self.train_url, usecols=self.usecols)
 		self.train_target = self.train_data.pop('PTOTVAL')

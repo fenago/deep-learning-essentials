@@ -13,8 +13,8 @@ class Test(unittest.TestCase):
 		import Exercise05_03
 		self.exercises = Exercise05_03
 
-		self.train_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-TensorFlow-Workshop/master/Chapter05/dataset/shuttle.trn'
-		self.test_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-TensorFlow-Workshop/master/Chapter05/dataset/shuttle.tst'
+		self.train_url = 'https://raw.githubusercontent.com/fenago/deep-learning-essentials/main/Lab05/dataset/shuttle.trn'
+		self.test_url = 'https://raw.githubusercontent.com/fenago/deep-learning-essentials/main/Lab05/dataset/shuttle.tst'
 
 		self.X_train = pd.read_table(self.train_url, header=None, sep=' ')
 		self.y_train = self.X_train.pop(9)

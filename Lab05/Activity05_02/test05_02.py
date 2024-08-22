@@ -13,10 +13,10 @@ class Test(unittest.TestCase):
 		import Activity05_02
 		self.exercises = Activity05_02
 
-		self.feature_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-TensorFlow-Workshop/master/Chapter05/dataset/IMDB-F-features.csv'
+		self.feature_url = 'https://raw.githubusercontent.com/fenago/deep-learning-essentials/main/Lab05/dataset/IMDB-F-features.csv'
 		self.feature = pd.read_csv(self.feature_url)
 
-		self.target_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-TensorFlow-Workshop/master/Chapter05/dataset/IMDB-F-targets.csv'
+		self.target_url = 'https://raw.githubusercontent.com/fenago/deep-learning-essentials/main/Lab05/dataset/IMDB-F-targets.csv'
 		self.target = pd.read_csv(self.target_url)
 
 		self.X_train = self.feature[:15000]
