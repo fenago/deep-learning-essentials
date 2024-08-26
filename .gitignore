@@ -1,4 +1,5 @@
 *.DS_Store
 # ipynb checkpoints
 *.ipynb_checkpoints/**
-fruits360_filtered
+Lab07/Activity8_01/__MACOSX/
+Lab07/Activity8_01/fruits360_filtered/
