@@ -6,14 +6,12 @@ TensorFlow provides many resources for creating efficient workflows when
 developing data science and machine learning applications. In this
 lab, you will learn how to use TensorBoard to visualize TensorFlow
 graphs and operations, TensorFlow Hub to access a community of users (a
-great source of pre-trained models), and Google Colab, which is a
+great source of pre-trained models) which is a
 collaborative environment for developing code with others. You will use
 these tools to accelerate development by maximizing computational
 resources, transferring knowledge from pre-trained models, and
 visualizing all aspects of the model-building process.
 
-
-**Note:** You can run all the notebooks in your lab environment. You can try running the lab in Google Colab optionally.
 
 
 TensorBoard
@@ -609,52 +607,11 @@ utilize the many brilliant models that have been created by experts in
 the machine learning field. As you will discover in later chapters,
 these models can be used to solve slightly different applications than
 those for which they were developed; this is known as transfer learning.
-In the next section, you will learn how to use Google Colab, an
-environment similar to Jupyter Notebooks that can be used to
-collaboratively develop applications in Python online, on Google
-servers.
 
 
 
-
-Development on Google Colab (Optional)
---------------------------------------
-
-Since Google Colab uses notebooks, the development environment is very
-similar to Jupyter Notebooks. In fact, IPython notebooks can be loaded
-into Google Colab. They can be loaded in via direct upload, Google
-Drive, or a GitHub repository. Alternatively, the platform provides
-example notebooks to get started. When you navigate to the platform,
-[https://colab.research.google.com/], you will be greeted by
-the following screen, which provides notebooks to open or the option to
-select a new notebook to begin developing:
-
-![](./images/B16341_03_12.jpg)
-
-
-
-
-If a new notebook is selected, you are greeted by the following screen,
-which may be very reminiscent of developing in Jupyter Notebooks and has
-many of the same features. You can create code or text snippets in the
-exact same way and many practitioners find the transition from Jupyter
-seamless:
-
-![](./images/B16341_03_13.jpg)
-
-
-
-
-In the next exercise, you will use Google Colab to import and manipulate
-data. One of the main differences between working in Google Colab
-compared to Jupyter Notebooks is that by working in Google Colab, you
-are developing on a remote server. This means that any data for analysis
-or training models must either be loaded on Google Drive or available
-directly online. In the following exercise, you will import CSV data
-directly from a GitHub repository for this book.
-
-Exercise 3.04: Using Google Colab to Visualize Data
----------------------------------------------------
+Exercise 3.04: Visualize Data
+-----------------------------
 
 In this exercise, you will load a dataset from a GitHub repository that
 has bias correction data for next-day maximum and minimum air
@@ -665,11 +622,8 @@ Note
 You can find the `Bias_correction_ucl.csv` file here:
 [https://github.com/fenago/deep-learning-essentials/blob/main/Lab03/Datasets/Bias_correction_ucl.csv].
 
-To perform the exercise, you will have to navigate to
-[https://colab.research.google.com/] and create a new
-notebook to work in. You will need to connect to a GPU-enabled
-environment to speed up TensorFlow operations such as tensor
-multiplication. Once the data has been loaded into the development
+To perform the exercise, you will need to create a new
+notebook to work in. Once the data has been loaded into the development
 environment, you will view the first five rows. Next, you\'ll drop the
 `Date` field since matrix multiplication requires numerical
 fields. Then, you will perform tensor multiplication of the dataset with
@@ -692,30 +646,16 @@ Follow these steps to complete this exercise:
     ![](./images/B16341_03_14.jpg)
 
 
-2.  Navigate to the `Edit` tab, go to
-    `Notebook Settings`, and then select `GPU` from
-    the `Hardware Acceleration` dropdown. Verify that the GPU
-    is enabled by displaying the GPU device name:
-
-    
-    ```
-    tf.test.gpu_device_name()
-    ```
-
-
-    You should get the name of the GPU device:
-
-    
-    ![](./images/B16341_03_15.jpg)
-
-
-
-
-3.  Import the `pandas` library and load in the dataset
-    directly from the GitHub repository:
+3.  Import the `pandas` library:
     
     ```
     import pandas as pd
+
+    ```
+
+3.  Load in the dataset directly from the GitHub repository:
+    
+    ```
     df = pd.read_csv('https://raw.githubusercontent.com'\
                      '/fenago/deep-learning-essentials'\
                      '/main/Lab03/Datasets'\
@@ -779,29 +719,12 @@ Follow these steps to complete this exercise:
 The result from executing the multiplication is a new tensor with the
 shape `7752x1`.
 
-In this exercise, you learned how to use Google Colab. You observed that
-Google Colab provides a convenient environment to build machine learning
-models and comes pre-loaded with many of the libraries that may be
-needed for any machine learning application. You can also see that the
-latest versions of the libraries are used. Unfortunately, the versions
-of TensorFlow cannot be modified, so using Google Colab in production
-environments may not be the most appropriate application. However, it is
-great for development environments.
 
-In the following activity, you will practice further how to use Google
-Colab in a development environment. You will use TensorFlow Hub in the
-same way that was achieved in Jupyter Notebooks. This activity will be
-similar to what was achieved in *Exercise 2.04*, *Loading Text Data for
-TensorFlow Models*, in which text data was processed by using a
-pre-trained word embedding model. Utilizing pre-trained models will be
-covered in future chapters, but this activity will show how easy it is
-to utilize a pre-trained model from TensorFlow Hub.
 
 Activity 3.02: Performing Word Embedding from a Pre-Trained Model from TensorFlow Hub
 -------------------------------------------------------------------------------------
 
-In this activity, you will practice working in the Google Colab
-environment. You will download a universal sentence encoder from
+In this activity, you will download a universal sentence encoder from
 TensorFlow Hub from the following URL:
 [https://tfhub.dev/google/universal-sentence-encoder/4]. Once
 the model has been loaded into memory, you will use it to encode some
@@ -833,32 +756,15 @@ Follow these steps:
 
 
 
-
-This section introduced Google Colab, an online development environment
-used to run Python code on Google servers. This can allow any
-practitioner with an internet connection to begin building machine
-learning models. Moreover, you can browse the selection of pre-trained
-models to begin creating models for your own applications using another
-resource you learned about in this lab, TensorFlow Hub. Google Colab
-provides practitioners with a zero-configuration, up-to-date
-environment, and even access to GPUs and TPUs for faster model training
-times.
-
-
-
-
-
 Summary
 =======
 
-
 In this lab, you used a variety of TensorFlow resources, including
-TensorBoard, TensorFlow Hub, and Google Colab. TensorBoard offers users
+TensorBoard, TensorFlow Hub. TensorBoard offers users
 a method to visualize computational model graphs, metrics, and any
 experimentation results. TensorFlow Hub allows users to accelerate their
 machine learning development using pre-trained models built by experts
-in the field. Google Colab provides a collaborative environment to
-develop machine learning models on Google servers. Developing performant
+in the field. Developing performant
 machine learning models is an iterative process of trial and error, and
 the ability to visualize every step of the process can help
 practitioners debug and improve their models. Moreover, understanding

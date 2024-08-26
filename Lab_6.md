@@ -2,12 +2,6 @@
 Lab 6: Regularization and Hyperparameter Tuning
 ===============================================
 
-
-
-
-
-Overview
-
 In this lab, you will be introduced to hyperparameter tuning. You
 will get hands-on experience in using TensorFlow to perform
 regularization on deep learning models to reduce overfitting. You will
@@ -18,39 +12,6 @@ hyperparameter tuning.
 By the end of the lab, you will be able to apply regularization and
 tune hyperparameters in order to reduce the risk of overfitting your
 model and improve its performance.
-
-
-
-
-
-Introduction
-============
-
-
-In the previous lab, you learned how classification models can solve
-problems when the response variable is discrete. You also saw different
-metrics used to assess the performance of such classifiers. You got
-hands-on experience in building and training binary, multi-class, and
-multi-label classifiers with TensorFlow.
-
-When evaluating a model, you will face three different situations: model
-overfitting, model underfitting, and model performing. The last one is
-the ideal scenario, in which a model is accurately predicting the right
-outcome and is generalizing to unseen data well.
-
-If a model is underfitting, it means it is neither achieving
-satisfactory performance nor accurately predicting the target variable.
-In this case, a data scientist can try tuning different hyperparameters
-and finding the best combination that will boost the accuracy of the
-model. Another possibility is to improve the input dataset by handling
-issues such as the cleanliness of the data or feature engineering.
-
-A model is overfitting when it can only achieve high performance on the
-training set and performs poorly on the test set. In this case, the
-model has only learned patterns from the data relevant to the data used
-for training. Regularization helps to lower the risk of overfitting.
-
-
 
 
 
@@ -67,25 +28,6 @@ ability of the model to output correct results while in production.
 
 ![](./images/B16341_06_01.jpg)
 
-
-
-
-In *Figure 6.1*, the linear model (line) seems to predict relatively
-accurate results for both the training (circles) and test (triangles)
-sets.
-
-But sometimes a model fails to generalize well and will overfit the
-training set. In this case, the performance of the model will be very
-different between the training and test sets.
-
-![](./images/B16341_06_02.jpg)
-
-
-
-
-*Figure 6.2* shows the model (line) has only learned to predict
-accurately for the training set (circles) and is performing badly on the
-test set (triangles). This model is clearly overfitting.
 
 Fortunately, there are **regularization techniques** that a data
 scientist can use to reduce and prevent overfitting, defined in the
@@ -878,7 +820,7 @@ to install it manually by running the following command:
 
 
 ```
-pip install keras-tuner
+pip install keras-tuner==1.0.1
 ```
 
 
@@ -1108,7 +1050,7 @@ The original dataset can be found here:
     assign it the `kt` alias:
     
     ```
-    !pip install keras-tuner
+    !pip install keras-tuner==1.0.1
     import kerastuner as kt
     ```
 
@@ -1360,7 +1302,7 @@ The original dataset can be found here:
     assign it the `kt` alias:
     
     ```
-    !pip install keras-tuner
+    !pip install keras-tuner==1.0.1
     import kerastuner as kt
     ```
 

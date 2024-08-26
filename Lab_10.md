@@ -2,16 +2,10 @@ Lab 10:  Generative Models
 ==========================
 
 
-
-
-
-Overview
-
 This lab introduces you to generative models---their components, how
 they function, and what they can do. You will start with generative
 **long short-term memory** (**LSTM**) networks and how to use them to
-generate new text. You will then learn about **generative adversarial
-networks** (**GANs**) and how to create new data, before moving on to
+generate new text. You will then learn about **generative adversarial networks** (**GANs**) and how to create new data, before moving on to
 **deep convolutional generative adversarial networks** (**DCGANs**)
 and creating your own images.
 
@@ -20,158 +14,14 @@ different types of GANs and generate various types of new data.
 
 
 
-
-
-Introduction
-============
-
-
-In this lab, you will explore generative models, which are types of
-unsupervised learning algorithms that generate completely new artificial
-data. Generative models differ from predictive models in that they aim
-to generate new samples from the same distribution of training data.
-While the purpose of these models may be very different from those
-covered in other chapters, you can and will use many of the concepts
-learned in prior chapters, including loading and preprocessing various
-data files, hyperparameter tuning, and building convolutional and
-**recurrent neural networks** (**RNNs**). In this lab, you will
-learn about one way to generate new samples from a training dataset,
-which is to use LSTM models to complete sequences of data based on
-initial seed data.
-
-Another way that you will learn about is the concept of two neural
-networks competing against one another in an adversarial way, that is, a
-generator generating samples and a discriminator trying to distinguish
-between the generated and real samples. As both models train
-simultaneously, the generator generates more realistic samples as the
-discriminator can more accurately distinguish between the \"real\" and
-\"fake\" data over time. These networks working together are called
-GANs. Generative models can be used to generate new text data, audio
-samples, and images.
-
-In this lab, you will focus primarily on three areas of generative
-models -- text generation or language modeling, GANs, and DCGANs.
-
-
-
-
-
 Text Generation
 ===============
-
 
 In *Lab 9*, *Recurrent Neural Networks*, you were introduced to
 **natural language processing** (**NLP**) and text generation (also
 known as language modeling), as you worked with some sequential data
 problems. In this section, you will be extending your sequence model for
 text generation using the same dataset to generate extended headlines.
-
-Previously in this book, you saw that sequential data is data in which
-each point in the dataset is dependent on the point prior and the order
-of the data is important. Recall the example with the bag of words from
-*Lab 9*, *Recurrent Neural Networks*. With the *bag-of-words*
-approach, you simply used a set of word counts to derive meaning from
-their use. As you can see in *Figure 11.1*, these two sentences have
-completely opposite semantic meanings, but would be identical in a
-bag-of-words format. While this may be an effective strategy for some
-problems, it\'s not an ideal approach for predicting the next word or
-words.
-
-![](./images/B16341_11_01.jpg)
-
-
-
-Consider the following example of a language model. You are given a
-sentence or a phrase, `yesterday I took my car out for a`, and
-are asked to predict the word that comes next in the sequence. Here, an
-appropriate word to complete the sequence would be `drive`.
-
-![](./images/B16341_11_02.jpg)
-
-
-
-
-To be successful in working with sequential data, you need a neural
-network capable of storing the value of the sequence. For this, you can
-use RNNs and LSTMs. LSTMs that are used for generating new sequences,
-such as text generation or language modeling, are known as generative
-LSTMs.
-
-Let\'s do a simple review of RNNs and LSTMs.
-
-Essentially, RNNs loop back on themselves, storing information and
-repeating the process, in a continuous cycle. Information is first
-transformed into vectors so that it can be processed by machines. The
-RNN then processes the vector sequence one at a time. As the RNN
-processes each vector, the vector gets passed through the previous
-hidden state. In this way, the hidden state retains information from the
-previous step, acting as a type of memory. It does this by combining the
-input and the previous hidden state with a tanh function that compresses
-the values between `-1` and `1`.
-
-Essentially, this is how the RNN functions. RNNs don\'t need a lot of
-computation and work well with short sequences. Simply put, RNNs are
-networks that have loops that allow information to persist over time.
-
-![](./images/B16341_11_03.jpg)
-
-
-
-
-RNNs do come with a couple of challenges---most notably, the exploding
-and vanishing gradient problems.
-
-The **exploding gradient problem** is what happens when gradients become
-too large for optimization. The opposite problem may occur where your
-gradients are too small. This is what is known as the **vanishing
-gradient problem**. This happens when gradients become increasingly
-smaller as you make repeated multiplications. Since the size of the
-gradient determines the size of the weight updates, exploding or
-vanishing gradients mean that the network can no longer be trained. This
-is a very real problem when it comes to training RNNs since the output
-of the networks feeds back into the input. The vanishing and exploding
-gradient issues were covered in *Lab 9*, *Recurrent Neural
-Networks*, and more details of how these issues are solved can be found
-there.
-
-LSTMs can selectively control the flow of information within each LSTM
-node. With added control, you can more easily adjust the model to
-prevent potential problems with gradients.
-
-![](./images/B16341_11_04.jpg)
-
-
-
-
-So, what enables LSTMs to track and store information throughout many
-time steps? You\'ll recall from *Lab 9*, *Recurrent Neural
-Networks*, that the key building block behind the LSTM is the structure
-called a *gate*, which allows the LSTM to selectively add or remove
-information to its cell state.
-
-Gates consist of a bounding function such as sigmoid or tanh. For
-example, if the function were sigmoid, it would force its input to be
-between zero and one. Intuitively, you can think of this as capturing
-how much of the information passed through the gate should be retained.
-This should be between zero and one, effectively *gating* the flow of
-information.
-
-LSTMs process information through four simple steps.
-
-They first forget their irrelevant history. Second, they perform a
-computation to store relevant parts of new information, and thirdly,
-they use these two steps together to selectively update their internal
-state. Finally, they generate an output.
-
-![](./images/B16341_11_05.jpg)
-
-
-
-
-This was a bit of a refresher on LSTMs and how they can selectively
-control and regulate the flow of information. Now that you\'ve reviewed
-LSTMs and their architecture, you can put some of these concepts to work
-by reviewing your code and LSTM model.
 
 You can create an LSTM model in the following manner using a sequential
 model. This LSTM contains four hidden layers, each with `50`,
@@ -2408,47 +2258,8 @@ Perform the following steps to complete the activity:
 Summary
 =======
 
-
-In this lab, you learned about a very exciting class of machine
-learning models called generative models. You discovered the amazing
-potential of this new and continually developing field in machine
-learning by using a generative LSTM on a language modeling challenge to
-generate textual output.
-
-Then, you learned about generative adversarial models. You implemented a
-GAN to generate data for a normal distribution of points. You also went
-even further into deep convolutional neural networks (DCGANS),
-discovering how to use one of the most powerful applications of GANs
-while creating new images of tomatoes and bananas that exhibited
-human-recognizable characteristics of the fruits on which they were
-trained.
-
-We hope you enjoyed the final lab of *The TensorFlow Workshop* and
-the book as a whole.
-
-Let\'s take a look back at the amazing journey that you have completed.
-First, you started by learning the basics of TensorFlow and how to
-perform operations on the building blocks of ANNs---tensors. Then, you
-learned how to load and preprocess a variety of data types in
-TensorFlow, including tabular data, images, audio files, and text.
-
-Next, you learned about a variety of resources that can be used in
-conjunction with TensorFlow to aid in your development, including
-TensorBoard for visualizing important components of your model,
-TensorFlow Hub for accessing pre-trained models, and Google Colab for
-building and training models in a managed environment. Then, you dived
-into building sequential models to solve regression and classification.
-
-To improve model performance, you then learned about regularization and
-hyperparameter tuning, which are used to ensure that your models perform
-well not only on the data they are trained upon, but also on new, unseen
-data. From there, you explored convolutional neural networks, which are
-an excellent choice when working with image data. After that, you
-learned in-depth how to utilize pre-trained networks to solve your own
-problems and fine-tune them to your own data. Then, you learned how to
-build and train RNNs, which are best used when working with sequential
-data, such as stock prices or even natural language. In the later part
-of the book, you explored more advanced TensorFlow capabilities using
-the Functional API and how to develop anything you might need in
-TensorFlow, before finally learning how to use TensorFlow for more
-creative endeavors via generative models.
+1. Explored generative models, including LSTMs for text generation and GANs for creating new images, such as DCGANs for generating images of fruits.
+2. Reviewed key concepts from the TensorFlow workshop, including tensor operations, data preprocessing, and the use of TensorBoard, TensorFlow Hub, and Google Colab.
+3. Covered sequential models for regression and classification, regularization, hyperparameter tuning, and convolutional neural networks (CNNs) for image data.
+4. Learned about fine-tuning pre-trained networks, RNNs for sequential data, and advanced TensorFlow capabilities using the Functional API.
+5. Ended with an exploration of creative applications using TensorFlow's generative models.
