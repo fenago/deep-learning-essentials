@@ -542,7 +542,7 @@ will use fine-tuning to train the final layers of this model.
 
 Note
 
-The dataset can be found here: [https://github.com/fenago/deep-learning-essentials/blob/main/Lab08/dataset/fruits360.zip].
+The dataset can be found here: [https://github.com/fenago/deep-learning-essentials/blob/main/Lab07/dataset/fruits360.zip].
 
 The following steps will help you to complete this activity:
 

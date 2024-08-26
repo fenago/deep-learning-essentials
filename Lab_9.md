@@ -220,7 +220,7 @@ are required to generate new news headlines using the given dataset.
 Note
 
 You can find `articles.csv` here:
-[https://github.com/fenago/deep-learning-essentials/blob/main/Lab09/Datasets/Articles.csv].
+[https://github.com/fenago/deep-learning-essentials/blob/main/Lab08/Datasets/Articles.csv].
 
 Perform the following steps to complete this exercise:
 
@@ -1630,7 +1630,7 @@ generator.
 Note
 
 You can find `tomato-or-apple` dataset here:
-[https://github.com/fenago/deep-learning-essentials/tree/main/Lab10/Exercise11.03].
+[https://github.com/fenago/deep-learning-essentials/tree/main/Lab09/Exercise11.03].
 
 For this exercise, it is recommended that you use Google Colab:
 
@@ -2149,7 +2149,7 @@ and generate new images.
 Note
 
 You can find `banana-or-orange` dataset here:
-[https://github.com/fenago/deep-learning-essentials/tree/main/Lab10/Activity11.01].
+[https://github.com/fenago/deep-learning-essentials/tree/main/Lab09/Activity11.01].
 
 Perform the following steps to complete the activity:
 

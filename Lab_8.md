@@ -29,7 +29,7 @@ testing sets before and after the date `2019-01-01`.
 Note
 
 You can find the `NVDA.csv` dataset here:
-[https://github.com/fenago/deep-learning-essentials/blob/main/Lab09/Datasets/NVDA.csv].
+[https://github.com/fenago/deep-learning-essentials/blob/main/Lab08/Datasets/NVDA.csv].
 
 1.  Open a new Jupyter or Colab notebook.
 
@@ -651,7 +651,7 @@ sets before and after the date `2019-01-01`.
 Note
 
 You can find the `NVDA.csv` dataset here:
-[https://github.com/fenago/deep-learning-essentials/blob/main/Lab09/Datasets/NVDA.csv].
+[https://github.com/fenago/deep-learning-essentials/blob/main/Lab08/Datasets/NVDA.csv].
 
 You will need to prepare the dataset like in *Exercise 9.01*, *Training
 an ANN for Sequential Data -- Nvidia Stock Prediction* (*steps 1* to
@@ -1003,7 +1003,7 @@ building an RNN model with three LSTM layers.
 
 Note
 
-You can find the dataset here: [https://github.com/fenago/deep-learning-essentials/blob/main/Lab09/Datasets/household_power_consumption.csv].
+You can find the dataset here: [https://github.com/fenago/deep-learning-essentials/blob/main/Lab08/Datasets/household_power_consumption.csv].
 
 Perform the following steps to complete this activity:
 
@@ -1517,7 +1517,7 @@ of each tweet: either positive or negative.
 Note
 
 You can find `tweets.csv` here:
-[https://github.com/fenago/deep-learning-essentials/blob/main/Lab09/Datasets/tweets.csv].
+[https://github.com/fenago/deep-learning-essentials/blob/main/Lab08/Datasets/tweets.csv].
 
 Perform the following steps to complete this activity.
 
