@@ -71,7 +71,7 @@ Perform the following steps to complete this exercise:
     The output will be as follows:
 
     
-    ![](./images/B16341_02_05.jpg)
+![](./images/B16341_02_05.jpg)
 
 
 
@@ -103,7 +103,7 @@ Perform the following steps to complete this exercise:
     The output will be as follows:
 
     
-    ![](./images/B16341_02_06.jpg)
+![](./images/B16341_02_06.jpg)
 
 
 
@@ -149,7 +149,7 @@ Perform the following steps to complete this exercise:
     The output will be as follows:
 
     
-    ![](./images/B16341_02_07.jpg)
+![](./images/B16341_02_07.jpg)
 
 
 The resulting histogram shows that the temperature values range from
@@ -206,7 +206,7 @@ Perform the following steps to complete this activity:
     You should get an output similar to the following:
 
     
-    ![](./images/B16341_02_08.jpg)
+![](./images/B16341_02_08.jpg)
 
 
 
@@ -302,7 +302,7 @@ Perform the following steps to complete this exercise:
     The output will be as follows:
 
     
-    ![](./images/B16341_02_09.jpg)
+![](./images/B16341_02_09.jpg)
 
 
 
@@ -325,7 +325,7 @@ Perform the following steps to complete this exercise:
     The output will be as follows:
 
     
-    ![](./images/B16341_02_10.jpg)
+![](./images/B16341_02_10.jpg)
 
 
 
@@ -359,7 +359,7 @@ Perform the following steps to complete this exercise:
     The output will be as follows:
 
     
-    ![](./images/B16341_02_11.jpg)
+![](./images/B16341_02_11.jpg)
 
 
 
@@ -481,7 +481,7 @@ Perform the following steps to complete this exercise:
     The output will be as follows:
 
     
-    ![](./images/B16341_02_12.jpg)
+![](./images/B16341_02_12.jpg)
 
 
 
@@ -662,7 +662,7 @@ Perform the following steps:
     You should get output similar to the following:
 
     
-    ![](./images/B16341_02_14.jpg)
+![](./images/B16341_02_14.jpg)
 
 
 
@@ -696,7 +696,7 @@ Perform the following steps:
     This will display the following output:
 
     
-    ![](./images/B16341_02_15.jpg)
+![](./images/B16341_02_15.jpg)
 
 
 
@@ -807,7 +807,7 @@ Perform the following steps:
     The output will be as follows:
 
     
-    ![](./images/B16341_02_16.jpg)
+![](./images/B16341_02_16.jpg)
 
 
 
@@ -878,7 +878,7 @@ Perform the following steps:
     The output will be as follows:
 
     
-    ![](./images/B16341_02_17.jpg)
+![](./images/B16341_02_17.jpg)
 
 
 
@@ -941,7 +941,7 @@ Perform the following steps:
     The output will be as follows:
 
     
-    ![](./images/B16341_02_18.jpg)
+![](./images/B16341_02_18.jpg)
 
 
 
@@ -1004,7 +1004,7 @@ The steps for this activity are as follows:
     The output will look as follows:
 
     
-    ![](./images/B16341_02_19.jpg)
+![](./images/B16341_02_19.jpg)
 
 
 

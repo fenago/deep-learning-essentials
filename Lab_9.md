@@ -300,7 +300,7 @@ Perform the following steps to complete this exercise:
     You should get the following output:
 
     
-    ![](./images/B16341_11_06.jpg)
+![](./images/B16341_11_06.jpg)
 
 
 
@@ -337,7 +337,7 @@ Perform the following steps to complete this exercise:
     You should get the following output:
 
     
-    ![](./images/B16341_11_07.jpg)
+![](./images/B16341_11_07.jpg)
 
 
 
@@ -395,7 +395,7 @@ Perform the following steps to complete this exercise:
     You should get the following output:
 
     
-    ![](./images/B16341_11_08.jpg)
+![](./images/B16341_11_08.jpg)
 
 
 
@@ -412,7 +412,7 @@ Perform the following steps to complete this exercise:
     You should get the following output:
 
     
-    ![](./images/B16341_11_09.jpg)
+![](./images/B16341_11_09.jpg)
 
 
 
@@ -473,7 +473,7 @@ Perform the following steps to complete this exercise:
     You should get the following output:
 
     
-    ![](./images/B16341_11_10.jpg)
+![](./images/B16341_11_10.jpg)
 
 
 
@@ -1128,7 +1128,7 @@ Perform the following steps to complete this exercise:
     You will get the following output:
 
     
-    ![](./images/B16341_11_18.jpg)
+![](./images/B16341_11_18.jpg)
 
 
 
@@ -1740,7 +1740,7 @@ For this exercise, it is recommended that you use Google Colab:
     Your output should look something like this:
 
     
-    ![](./images/B16341_11_23.jpg)
+![](./images/B16341_11_23.jpg)
 
 
 
@@ -1901,7 +1901,7 @@ For this exercise, it is recommended that you use Google Colab:
     Your output should look something like this:
 
     
-    ![](./images/B16341_11_24.jpg)
+![](./images/B16341_11_24.jpg)
 
 
 
@@ -2044,7 +2044,7 @@ For this exercise, it is recommended that you use Google Colab:
     Your output should look something like this:
 
     
-    ![](./images/B16341_11_25.jpg)
+![](./images/B16341_11_25.jpg)
 
 
 
@@ -2066,7 +2066,7 @@ For this exercise, it is recommended that you use Google Colab:
     You will get output like the following:
 
     
-    ![](./images/B16341_11_26.jpg)
+![](./images/B16341_11_26.jpg)
 
 
 

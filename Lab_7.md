@@ -390,7 +390,7 @@ It contains 25,000 images of dogs and cats. It can be found here:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_08_03.jpg)
+![](./images/B16341_08_03.jpg)
 
 
 
@@ -437,7 +437,7 @@ It contains 25,000 images of dogs and cats. It can be found here:
     The expected output is as follows:
 
     
-    ![](./images/B16341_08_04.jpg)
+![](./images/B16341_08_04.jpg)
 
 
 
@@ -510,7 +510,7 @@ layers only. Let\'s see how you can achieve this in TensorFlow:
     screenshot:
 
     
-    ![](./images/B16341_08_05.jpg)
+![](./images/B16341_08_05.jpg)
 
 
 
@@ -583,7 +583,7 @@ The following steps will help you to complete this activity:
     The expected output is as follows:
 
     
-    ![](./images/B16341_08_06.jpg)
+![](./images/B16341_08_06.jpg)
 
 
 
@@ -771,7 +771,7 @@ The following steps will help you to complete this activity:
     The expected output is as follows:
 
     
-    ![](./images/B16341_08_07.jpg)
+![](./images/B16341_08_07.jpg)
 
 
 

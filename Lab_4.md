@@ -77,7 +77,7 @@ Perform the following steps to complete the exercise:
     You should get the following output:
 
     
-    ![](./images/B16341_04_02.jpg)
+![](./images/B16341_04_02.jpg)
 
 
 
@@ -106,7 +106,7 @@ Perform the following steps to complete the exercise:
     You should get the following result:
 
     
-    ![](./images/B16341_04_03.jpg)
+![](./images/B16341_04_03.jpg)
 
 
 
@@ -263,7 +263,7 @@ Perform the following steps to complete this exercise:
     You should get the following output:
 
     
-    ![](./images/B16341_04_04.jpg)
+![](./images/B16341_04_04.jpg)
 
 
 13. Evaluate the model on the training data:
@@ -299,7 +299,7 @@ Perform the following steps to complete this exercise:
     `http://HOSTNAME:6006/`:
 
     
-    ![](./images/B16341_04_05.jpg)
+![](./images/B16341_04_05.jpg)
 
 
 
@@ -471,7 +471,7 @@ Perform the following steps to complete this exercise:
     You should get the following output:
 
     
-    ![](./images/B16341_04_07.jpg)
+![](./images/B16341_04_07.jpg)
 
 
 13. Evaluate the model on the training data:
@@ -505,7 +505,7 @@ Perform the following steps to complete this exercise:
     You should get something like the following:
 
     
-    ![Figure 4.8: A visual representation of the model architecture in
+![Figure 4.8: A visual representation of the model architecture in
     TensorBoard ](./images/B16341_04_08.jpg)
 
 
@@ -586,14 +586,14 @@ Perform the following steps to complete this activity:
     You should get an output like the following:
 
     
-    ![](./images/B16341_04_10.jpg)
+![](./images/B16341_04_10.jpg)
 
 
 
 14. Visualize the model-fitting process in TensorBoard. You should get
     the following output:
     
-    ![](./images/B16341_04_11.jpg)
+![](./images/B16341_04_11.jpg)
 
 
 In the next section, you will explore classification models, which
@@ -739,7 +739,7 @@ Perform the following steps to complete this exercise:
     Your output should be similar to the following figure:
 
     
-    ![](./images/B16341_04_13.jpg)
+![](./images/B16341_04_13.jpg)
 
 
 12. Evaluate the model on the training data:
@@ -774,7 +774,7 @@ Perform the following steps to complete this exercise:
     You should get a screen similar to the following in the browser:
 
     
-    ![](./images/B16341_04_14.jpg)
+![](./images/B16341_04_14.jpg)
 
 
 

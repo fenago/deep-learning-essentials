@@ -69,7 +69,7 @@ The original dataset can be found here:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_05_06.jpg)
+![](./images/B16341_05_06.jpg)
 
 
 
@@ -103,7 +103,7 @@ The original dataset can be found here:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_05_07.jpg)
+![](./images/B16341_05_07.jpg)
 
 
 
@@ -136,7 +136,7 @@ The original dataset can be found here:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_05_08.jpg)
+![](./images/B16341_05_08.jpg)
 
 
 
@@ -166,7 +166,7 @@ The original dataset can be found here:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_05_09.jpg)
+![](./images/B16341_05_09.jpg)
 
 
 
@@ -272,7 +272,7 @@ The original dataset can be found here:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_05_10.jpg)
+![](./images/B16341_05_10.jpg)
 
 
 
@@ -321,7 +321,7 @@ The original dataset can be found here:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_05_11.jpg)
+![](./images/B16341_05_11.jpg)
 
 
 
@@ -347,7 +347,7 @@ The original dataset can be found here:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_05_12.jpg)
+![](./images/B16341_05_12.jpg)
 
 
     The preceding output shows the probability of each prediction. Each
@@ -367,7 +367,7 @@ The original dataset can be found here:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_05_13.jpg)
+![](./images/B16341_05_13.jpg)
 
 
 Comparing this output with the model predictions on the first five rows
@@ -667,7 +667,7 @@ Now, run the following instructions:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_05_26.jpg)
+![](./images/B16341_05_26.jpg)
 
 
 
@@ -689,7 +689,7 @@ Now, run the following instructions:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_05_27.jpg)
+![](./images/B16341_05_27.jpg)
 
 
 
@@ -717,7 +717,7 @@ Now, run the following instructions:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_05_28.jpg)
+![](./images/B16341_05_28.jpg)
 
 
 
@@ -922,7 +922,7 @@ Perform the following steps to complete the exercise:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_05_34.jpg)
+![](./images/B16341_05_34.jpg)
 
 
 
@@ -967,7 +967,7 @@ Perform the following steps to complete the exercise:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_05_35.jpg)
+![](./images/B16341_05_35.jpg)
 
 
 
@@ -1085,7 +1085,7 @@ Perform the following steps to complete the exercise:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_05_36.jpg)
+![](./images/B16341_05_36.jpg)
 
 
 
@@ -1137,7 +1137,7 @@ Perform the following steps to complete the exercise:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_05_37.jpg)
+![](./images/B16341_05_37.jpg)
 
 
 
@@ -1159,7 +1159,7 @@ Perform the following steps to complete the exercise:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_05_38.jpg)
+![](./images/B16341_05_38.jpg)
 
 
 
@@ -1213,7 +1213,7 @@ The following steps will help you to complete the activity:
     The expected output is as follows:
 
     
-    ![](./images/B16341_05_39.jpg)
+![](./images/B16341_05_39.jpg)
 
 
 
@@ -1319,7 +1319,7 @@ The following steps will help you to complete the activity:
     The expected output is as follows:
 
     
-    ![Formula](./images/B16341_05_41.jpg)
+![Formula](./images/B16341_05_41.jpg)
 
 
 

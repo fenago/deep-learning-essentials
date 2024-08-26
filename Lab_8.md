@@ -68,7 +68,7 @@ You can find the `NVDA.csv` dataset here:
     You should get the following output:
 
     
-    ![](./images/B16341_09_08.jpg)
+![](./images/B16341_09_08.jpg)
 
 
 
@@ -119,7 +119,7 @@ You can find the `NVDA.csv` dataset here:
     You should get the following output:
 
     
-    ![](./images/B16341_09_09.jpg)
+![](./images/B16341_09_09.jpg)
 
 
 
@@ -142,7 +142,7 @@ You can find the `NVDA.csv` dataset here:
     You should get the following output:
 
     
-    ![](./images/B16341_09_10.jpg)
+![](./images/B16341_09_10.jpg)
 
 
 
@@ -326,7 +326,7 @@ You can find the `NVDA.csv` dataset here:
     parameters.
 
     
-    ![](./images/B16341_09_11.jpg)
+![](./images/B16341_09_11.jpg)
 
 
 
@@ -353,7 +353,7 @@ You can find the `NVDA.csv` dataset here:
     You should get the following output:
 
     
-    ![](./images/B16341_09_12.jpg)
+![](./images/B16341_09_12.jpg)
 
 
 
@@ -370,7 +370,7 @@ You can find the `NVDA.csv` dataset here:
     You should get the following output:
 
     
-    ![](./images/B16341_09_13.jpg)
+![](./images/B16341_09_13.jpg)
 
 
 
@@ -437,7 +437,7 @@ You can find the `NVDA.csv` dataset here:
     You should get the following output:
 
     
-    ![](./images/B16341_09_14.jpg)
+![](./images/B16341_09_14.jpg)
 
 
 
@@ -491,7 +491,7 @@ You can find the `NVDA.csv` dataset here:
     You should get the following output:
 
     
-    ![](./images/B16341_09_15.jpg)
+![](./images/B16341_09_15.jpg)
 
 
 
@@ -707,7 +707,7 @@ an ANN for Sequential Data -- Nvidia Stock Prediction* (*steps 1* to
     You should get the following output:
 
     
-    ![](./images/B16341_09_24.jpg)
+![](./images/B16341_09_24.jpg)
 
 
 
@@ -738,7 +738,7 @@ an ANN for Sequential Data -- Nvidia Stock Prediction* (*steps 1* to
     You should get the following output:
 
     
-    ![](./images/B16341_09_25.jpg)
+![](./images/B16341_09_25.jpg)
 
 
 
@@ -755,7 +755,7 @@ an ANN for Sequential Data -- Nvidia Stock Prediction* (*steps 1* to
     You should get the following output:
 
     
-    ![](./images/B16341_09_26.jpg)
+![](./images/B16341_09_26.jpg)
 
 
 
@@ -772,7 +772,7 @@ an ANN for Sequential Data -- Nvidia Stock Prediction* (*steps 1* to
     You should get the following output:
 
     
-    ![](./images/B16341_09_27.jpg)
+![](./images/B16341_09_27.jpg)
 
 
 
@@ -809,7 +809,7 @@ an ANN for Sequential Data -- Nvidia Stock Prediction* (*steps 1* to
     You should get the following output:
 
     
-    ![](./images/B16341_09_28.jpg)
+![](./images/B16341_09_28.jpg)
 
 
 
@@ -827,7 +827,7 @@ an ANN for Sequential Data -- Nvidia Stock Prediction* (*steps 1* to
     You should get the following output:
 
     
-    ![](./images/B16341_09_29.jpg)
+![](./images/B16341_09_29.jpg)
 
 
 
@@ -900,7 +900,7 @@ an ANN for Sequential Data -- Nvidia Stock Prediction* (*steps 1* to
     You should get the following output:
 
     
-    ![](./images/B16341_09_30.jpg)
+![](./images/B16341_09_30.jpg)
 
 
 
@@ -946,7 +946,7 @@ an ANN for Sequential Data -- Nvidia Stock Prediction* (*steps 1* to
     You should get the following output:
 
     
-    ![](./images/B16341_09_31.jpg)
+![](./images/B16341_09_31.jpg)
 
 
 
@@ -973,7 +973,7 @@ an ANN for Sequential Data -- Nvidia Stock Prediction* (*steps 1* to
     You should get the following output:
 
     
-    ![](./images/B16341_09_32.jpg)
+![](./images/B16341_09_32.jpg)
 
 
 
@@ -1039,7 +1039,7 @@ Perform the following steps to complete this activity:
     You should get the following output:
 
     
-    ![](./images/B16341_09_33.jpg)
+![](./images/B16341_09_33.jpg)
 
 
 
@@ -1323,7 +1323,7 @@ Perform the following steps to complete this exercise:
     You should get the following output:
 
     
-    ![](./images/B16341_09_34.jpg)
+![](./images/B16341_09_34.jpg)
 
 
 
@@ -1360,7 +1360,7 @@ Perform the following steps to complete this exercise:
     You should get the following output:
 
     
-    ![](./images/B16341_09_35.jpg)
+![](./images/B16341_09_35.jpg)
 
 
 
@@ -1416,7 +1416,7 @@ Perform the following steps to complete this exercise:
     You should get the following output:
 
     
-    ![](./images/B16341_09_36.jpg)
+![](./images/B16341_09_36.jpg)
 
 
 
@@ -1434,7 +1434,7 @@ Perform the following steps to complete this exercise:
     You should get the following output:
 
     
-    ![](./images/B16341_09_37.jpg)
+![](./images/B16341_09_37.jpg)
 
 
 
@@ -1488,7 +1488,7 @@ Perform the following steps to complete this exercise:
     You should get the following output:
 
     
-    ![](./images/B16341_09_38.jpg)
+![](./images/B16341_09_38.jpg)
 
 
 
@@ -1541,7 +1541,7 @@ Perform the following steps to complete this activity.
     You should get the following output:
 
     
-    ![](./images/B16341_09_39.jpg)
+![](./images/B16341_09_39.jpg)
 
 
 

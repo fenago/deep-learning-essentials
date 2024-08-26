@@ -313,7 +313,7 @@ Perform the following steps to complete this exercise:
     This will result in the following output:
 
     
-    ![](./images/B16341_01_04.jpg)
+![](./images/B16341_01_04.jpg)
 
 
 
@@ -373,7 +373,7 @@ Perform the following steps to complete this exercise:
     This will result in the following output:
 
     
-    ![](./images/B16341_01_05.jpg)
+![](./images/B16341_01_05.jpg)
 
 
 
@@ -618,7 +618,7 @@ Perform the following steps to complete the exercise:
     votes for each candidate and each party across districts:
 
     
-    ![](./images/B16341_01_09.jpg)
+![](./images/B16341_01_09.jpg)
 
 
 
@@ -706,7 +706,7 @@ The steps you will take are as follows:
     You should get the following output:
 
     
-    ![](./images/B16341_01_11.jpg)
+![](./images/B16341_01_11.jpg)
 
 
 
@@ -721,7 +721,7 @@ The steps you will take are as follows:
 7.  Create a new variable as the sum of the matrices and print the
     result:
     
-    ![](./images/B16341_01_12.jpg)
+![](./images/B16341_01_12.jpg)
 
 
 
@@ -796,7 +796,7 @@ Perform the following steps:
     You should get the following output:
 
     
-    ![](./images/B16341_01_16.jpg)
+![](./images/B16341_01_16.jpg)
 
 
 
@@ -876,7 +876,7 @@ Perform the following steps:
     You should get the following output:
 
     
-    ![](./images/B16341_01_17.jpg)
+![](./images/B16341_01_17.jpg)
 
 
 
@@ -915,7 +915,7 @@ Perform the following steps:
     You should get the following output:
 
     
-    ![](./images/B16341_01_18.jpg)
+![](./images/B16341_01_18.jpg)
 
 
 
@@ -970,7 +970,7 @@ Perform the following steps:
     You should get the following output:
 
     
-    ![](./images/B16341_01_19.jpg)
+![](./images/B16341_01_19.jpg)
 
 
 
@@ -986,7 +986,7 @@ Perform the following steps:
 
 
     
-    ![](./images/B16341_01_20.jpg)
+![](./images/B16341_01_20.jpg)
 
 
 
@@ -1003,7 +1003,7 @@ Perform the following steps:
     This will result in the following output:
 
     
-    ![](./images/B16341_01_21.jpg)
+![](./images/B16341_01_21.jpg)
 
 
 
@@ -1177,7 +1177,7 @@ Perform the following steps:
     You should get the following output:
 
     
-    ![](./images/B16341_01_30.jpg)
+![](./images/B16341_01_30.jpg)
 
 
 
@@ -1217,7 +1217,7 @@ Perform the following steps:
     You should get the following result:
 
     
-    ![](./images/B16341_01_31.jpg)
+![](./images/B16341_01_31.jpg)
 
 
 
@@ -1234,7 +1234,7 @@ Perform the following steps:
     This will result in the following output:
 
     
-    ![](./images/B16341_01_32.jpg)
+![](./images/B16341_01_32.jpg)
 
 
 
@@ -1265,7 +1265,7 @@ Perform the following steps:
     This will result in the following output:
 
     
-    ![](./images/B16341_01_33.jpg)
+![](./images/B16341_01_33.jpg)
 
 
 
@@ -1354,7 +1354,7 @@ Perform the following steps:
     You should get the following result:
 
     
-    ![](./images/B16341_01_40.jpg)
+![](./images/B16341_01_40.jpg)
 
 
 
@@ -1365,7 +1365,7 @@ Perform the following steps:
     You should get the following result:
 
     
-    ![](./images/B16341_01_41.jpg)
+![](./images/B16341_01_41.jpg)
 
 
 

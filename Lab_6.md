@@ -200,7 +200,7 @@ The original dataset can be found here:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_06_06.jpg)
+![](./images/B16341_06_06.jpg)
 
 
 
@@ -300,7 +300,7 @@ The original dataset can be found here:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_06_07.jpg)
+![](./images/B16341_06_07.jpg)
 
 
 
@@ -346,7 +346,7 @@ The original dataset can be found here:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_06_08.jpg)
+![](./images/B16341_06_08.jpg)
 
 
 
@@ -406,7 +406,7 @@ The original dataset can be found here:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_06_09.jpg)
+![](./images/B16341_06_09.jpg)
 
 
 
@@ -434,7 +434,7 @@ The original dataset can be found here:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_06_10.jpg)
+![](./images/B16341_06_10.jpg)
 
 
 
@@ -526,7 +526,7 @@ The original dataset can be found here:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_06_12.jpg)
+![](./images/B16341_06_12.jpg)
 
 
 
@@ -628,7 +628,7 @@ The original dataset can be found here:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_06_13.jpg)
+![](./images/B16341_06_13.jpg)
 
 
 
@@ -674,7 +674,7 @@ The original dataset can be found here:
     The output will be as follows:
 
     
-    ![](./images/B16341_06_14.jpg)
+![](./images/B16341_06_14.jpg)
 
 
 
@@ -774,7 +774,7 @@ The following steps will help you to complete the activity:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_06_16.jpg)
+![](./images/B16341_06_16.jpg)
 
 
 
@@ -1012,7 +1012,7 @@ The original dataset can be found here:
     The output will be as follows:
 
     
-    ![](./images/B16341_06_18.jpg)
+![](./images/B16341_06_18.jpg)
 
 
 
@@ -1174,7 +1174,7 @@ The original dataset can be found here:
     You will get the following output:
 
     
-    ![](./images/B16341_06_19.jpg)
+![](./images/B16341_06_19.jpg)
 
 
 
@@ -1264,7 +1264,7 @@ The original dataset can be found here:
     The output will be as follows:
 
     
-    ![](./images/B16341_06_20.jpg)
+![](./images/B16341_06_20.jpg)
 
 
 
@@ -1452,7 +1452,7 @@ The original dataset can be found here:
     You will get the following output:
 
     
-    ![](./images/B16341_06_21.jpg)
+![](./images/B16341_06_21.jpg)
 
 
 
@@ -1532,7 +1532,7 @@ The following steps will help you to complete the activity:
     The expected output will be as follows:
 
     
-    ![](./images/B16341_06_22.jpg)
+![](./images/B16341_06_22.jpg)
 
 
 

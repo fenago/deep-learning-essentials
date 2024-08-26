@@ -128,7 +128,7 @@ Follow these steps:
     following model graph:
 
     
-    ![](./images/B16341_03_05.jpg)
+![](./images/B16341_03_05.jpg)
 
 
 
@@ -187,7 +187,7 @@ The steps you will take are as follows:
 7.  Launch TensorBoard in the command line and view the graph in a web
     browser:
     
-    ![](./images/B16341_03_06.jpg)
+![](./images/B16341_03_06.jpg)
 
 
 
@@ -347,7 +347,7 @@ Follow these steps:
     Images in the directory will be displayed in TensorBoard as follows:
 
     
-    ![](./images/B16341_03_07.jpg)
+![](./images/B16341_03_07.jpg)
 
 
 
@@ -586,7 +586,7 @@ Follow these steps to complete this exercise:
     You should get something like the following image:
 
     
-    ![](./images/B16341_03_11.jpg)
+![](./images/B16341_03_11.jpg)
 
 
 
@@ -643,7 +643,7 @@ Follow these steps to complete this exercise:
     You should get the version of the TensorFlow library:
 
     
-    ![](./images/B16341_03_14.jpg)
+![](./images/B16341_03_14.jpg)
 
 
 3.  Import the `pandas` library:
@@ -674,7 +674,7 @@ Follow these steps to complete this exercise:
     You should get the following output:
 
     
-    ![](./images/B16341_03_16.jpg)
+![](./images/B16341_03_16.jpg)
 
 
 
@@ -711,7 +711,7 @@ Follow these steps to complete this exercise:
     You should get output like the following:
 
     
-    ![](./images/B16341_03_17.jpg)
+![](./images/B16341_03_17.jpg)
 
 
 
@@ -752,7 +752,7 @@ Follow these steps:
     Your final output should be like the following:
 
     
-    ![](./images/B16341_03_18.jpg)
+![](./images/B16341_03_18.jpg)
 
 
 
