@@ -18,10 +18,9 @@ class Test(unittest.TestCase):
 		self.exercises = Activity08_01
 
 		self.file_url = 'https://github.com/fenago/deep-learning-essentials/blob/main/Lab08/dataset/fruits360.zip'
-		self.zip_dir = tf.keras.utils.get_file('fruits360.zip', origin=self.file_url, extract=True)
-		self.path = pathlib.Path(self.zip_dir).parent / 'fruits360_filtered'
-		self.train_dir = self.path / 'Training'
-		self.validation_dir = self.path / 'Test'
+		self.path = 'fruits360_filtered'
+		self.train_dir = self.path + 'Training'
+		self.validation_dir = self.path + 'Test'
 		self.total_train = 11398
 		self.total_val = 4752
 
