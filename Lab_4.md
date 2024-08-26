@@ -671,17 +671,18 @@ Perform the following steps to complete this exercise:
 
     
     ```
-    tensorboard –-logdir=logs/
+    mkdir -p logs && chmod -R 777 logs
+
+    tensorboard --bind_all --logdir=logs/
     ```
 
 
     You can see its execution in a web browser by visiting the URL that
     is provided after launching TensorBoard. The default URL provided is
-    `http://localhost:6006/`:
+    `http://HOSTNAME:6006/`:
 
     
-    ![Figure 4.5: A visual representation of the model architecture in
-    TensorBoard ](./images/B16341_04_05.jpg)
+    ![](./images/B16341_04_05.jpg)
 
 
 
@@ -878,7 +879,9 @@ Perform the following steps to complete this exercise:
 
     
     ```
-    tensorboard --logdir=logs/
+    mkdir -p ./logs && chmod -R 777 ./logs
+
+    tensorboard --bind_all --logdir=logs/
     ```
 
 
@@ -975,10 +978,6 @@ Perform the following steps to complete this activity:
     
     ![](./images/B16341_04_11.jpg)
 
-
-Note
-
-The solution to this activity can be found via [this link].
 
 In the next section, you will explore classification models, which
 attempt to classify data into distinct classes. You will begin with
@@ -1192,7 +1191,9 @@ Perform the following steps to complete this exercise:
 
     
     ```
-    tensorboard --logdir=logs/
+    mkdir -p ./logs && chmod -R 777 ./logs
+
+    tensorboard --bind_all --logdir=logs/
     ```
 
 
@@ -1304,10 +1305,7 @@ Perform the following steps to complete this activity:
 13. View the model architecture and model-fitting process in
     TensorBoard.
 
-    Note
 
-    The solution to this activity can be found via [this
-    link].
 
 In this section, you have begun your foray into building, training, and
 evaluating classification models using TensorFlow. You have seen that

@@ -1770,10 +1770,6 @@ The following steps will help you to complete the activity:
 
 
 
-Note
-
-The solution to this activity can be found via [this link].
-
 
 
 
@@ -1879,10 +1875,6 @@ The following steps will help you to complete the activity:
 
 
 
-
-Note
-
-The solution to this activity can be found via [this link].
 
 
 

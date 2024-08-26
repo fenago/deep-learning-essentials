@@ -788,12 +788,12 @@ predictions.
 
 
 In the preceding diagram, at some time step denoted by t, the RNN takes
-in `X`[t]{.subscript} as the input, and at that time step, it
-computes a prediction value, `Y`[t]{.subscript}, which is the
+in `X`[t] as the input, and at that time step, it
+computes a prediction value, `Y`[t], which is the
 output of the network.
 
 In addition to that output, it saved an internal state, called update,
-`H`[t]{.subscript}. This internal state from time step
+`H`[t]. This internal state from time step
 `t` can then be used to complement the input of the next time
 step `t+1`. So, basically, it provides information about the
 previous step to the next one. This mechanism is called **recurrent**
@@ -802,10 +802,10 @@ within the network.
 
 What\'s really happening here? This is done by using a simple recurrence
 relation to process the sequential data. RNNs maintain internal state,
-`H`[t]{.subscript}, and combine it with the next input data,
-`X`[t+1]{.subscript}, to make a prediction,
-`Y`[t+1]{.subscript}, and store the new internal state,
-`H`[t+1]{.subscript}. The key idea is that the state update is
+`H`[t], and combine it with the next input data,
+`X`[t+1], to make a prediction,
+`Y`[t+1], and store the new internal state,
+`H`[t+1]. The key idea is that the state update is
 a combination of the previous state time step as well as the current
 input that the network is receiving.
 
@@ -835,17 +835,17 @@ both the internal state update and the formal output vector.
 
 
 
-Given the input vector, `X`[t]{.subscript}, the RNN applies a
+Given the input vector, `X`[t], the RNN applies a
 function to update its hidden state. This function is simply a standard
 neural net operation. It consists of multiplication by a weight matrix
 and the application of a non-linearity activation function. The key
 difference is that, in this case, you\'re feeding in both the input
-vector, `X`[t]{.subscript}, and the previous state as inputs
-to this function, `H`[t-1]{.subscript}.
+vector, `X`[t], and the previous state as inputs
+to this function, `H`[t-1].
 
 Next, you apply a non-linearity activation function such as tanh to the
 previous step. You have these two weight matrices, and finally, your
-output, `y`[t]{.subscript}, at a given time step is then a
+output, `y`[t], at a given time step is then a
 modified, transformed version of this internal state.
 
 After you\'ve looped through all the words in the sentence, your
@@ -1051,8 +1051,8 @@ LSTMs process information through four simple steps:
 1.  The first step in the LSTM is to decide what information is going to
     be thrown away from the cell state, to forget irrelevant history.
     This is a function of both the prior internal state,
-    `H`[t-1]{.subscript}, and the input,
-    `X`[t]{.subscript}, because some of that information may
+    `H`[t-1], and the input,
+    `X`[t], because some of that information may
     not be important.
 2.  Next, the LSTM decides what part of the new information is relevant
     and uses this to store this information in its cell state.
@@ -1550,10 +1550,6 @@ Perform the following steps to complete this activity:
 
 
 
-
-Note
-
-The solution to this activity can be found via [this link].
 
 In the next section, you will learn how to apply RNNs to text.
 

@@ -2,12 +2,6 @@
 Lab 3: TensorFlow Development
 =============================
 
-
-
-
-
-Overview
-
 TensorFlow provides many resources for creating efficient workflows when
 developing data science and machine learning applications. In this
 lab, you will learn how to use TensorBoard to visualize TensorFlow
@@ -19,194 +13,22 @@ resources, transferring knowledge from pre-trained models, and
 visualizing all aspects of the model-building process.
 
 
-
-
-
-Introduction
-============
-
-
-In the previous lab, you learned how to load and process a variety
-of data types so that they can be used in TensorFlow modeling. This
-included tabular data from CSV files, image data, text data, and audio
-files. By the end of the lab, you were able to process all these
-data types and produce numerical tensors from them that can be input for
-model training.
-
-In this lab, you will learn about TensorFlow resources that will aid
-you in your model building and help you create performant machine
-learning algorithms. You will explore the practical resources that
-practitioners can utilize to aid their development workflow, including
-TensorBoard, TensorFlow Hub, and Google Colab. TensorBoard is an
-interactive platform that offers a visual representation of the
-computational graphs and data produced during the TensorFlow development
-process. The platform solves the problem of visualizing various data
-types that is common in machine learning. The visualization toolkit can
-plot model evaluation metrics during the model-building process, display
-images, play audio data, and perform many more tasks that would
-otherwise require writing custom functions. TensorBoard provides simple
-functions for writing logs, which are subsequently visualized in a
-browser window.
-
-TensorFlow Hub is an open source library of pre-trained machine learning
-models with a code base that\'s available for all to use and modify for
-their own applications. Models can be imported directly into code
-through dedicated libraries and can be viewed at
-[https://tfhub.dev/]. TensorFlow Hub allows users to use
-state-of-the-art models created by experts in the field and can result
-in massively reduced training times for models that incorporate
-pre-trained models as part of a user\'s model.
-
-For example, the platform contains the ResNet-50 model, a 50-layer
-**Artificial Neural Network** (**ANN**) that achieved first place on the
-ILSVRC 2015 classification task, a competition to classify images into
-1,000 distinct classes. The network has over 23 million trainable
-parameters and was trained on more than 14 million images. Training this
-model from scratch on an off-the-shelf laptop to achieve something close
-to the accuracy of the pre-trained model on TensorFlow Hub would take
-days. It is for this reason that the ability to utilize TensorFlow Hub
-models can accelerate development.
-
-The final resource you will learn about in this lab is Google Colab,
-which is an online development environment for executing Python code and
-creating machine learning algorithms on Google servers. The environment
-even has access to hardware that contains **Graphics Processing Units**
-(**GPUs**) and **Tensor Processing Units** (**TPUs**) that can speed up
-model training free of charge. Google Colab is available at
-[https://colab.research.google.com/].
-
-Google Colab resolves the issue of setting up a development environment
-for creating machine learning models that can be shared with others. For
-example, multiple machine learning practitioners can develop the same
-model and train the model on one hardware instance, as opposed to having
-to run the instance with their own resources. As the name suggests, the
-platform fosters collaboration among machine learning practitioners.
-
-Now, let\'s explore TensorBoard, a resource that helps practitioners
-understand and debug their machine learning workflow.
-
-
-
+**Note:** You can run all the notebooks in your lab environment. You can try running the lab in Google Colab optionally.
 
 
 TensorBoard
 ===========
 
-
-TensorBoard is a visualization toolkit used to aid in machine learning
-experimentation. The platform has dashboard functionality for
-visualizing many of the common data types that a data science or machine
-learning practitioner may need at once, such as scalar values, image
-batches, and audio files. While such visualizations can be created with
-other plotting libraries, such as `matplotlib` or
-`ggplot`, TensorBoard combines many visualizations in an
-easy-to-use environment. Moreover, all that is required to create the
-visualizations is to log the trace during the building, fitting, and
-evaluating steps. TensorBoard helps in the following tasks:
-
--   Visualizing the model graph to view and understand the model\'s
-    architecture:
-    
-    ![](./images/B16341_03_01.jpg)
-
-
-
-
--   Viewing histograms and distributions of variables and tracking how
-    they change over time.
--   Displaying images, text, and audio data. For example, the
-    following figure displays images from the Fashion MNIST dataset
-    ([https://www.tensorflow.org/datasets/catalog/fashion\_mnist]):
-    
-    ![](./images/B16341_03_02.jpg)
-
-
-
-
--   Plotting graphs of model evaluation metrics as a function of epoch
-    during model training:
-    
-    ![](./images/B16341_03_03.jpg)
-
-
-
-
--   Dimensionality reduction for visualizing embedding vectors:
-    
-    ![](./images/B16341_03_04.jpg)
-
-
-
-
-TensorBoard creates visualizations from logs that are written during the
-development process. In order to create the logs to visualize the graph,
-a file writer object needs to be initialized within your development
-code, providing the location for the logs as an argument. The file
-writer is typically created at the beginning of a Jupyter notebook or
-equivalent development environment before any logs are written. This can
-be done as follows:
-
-
-```
-logdir = 'logs/'
-writer = tf.summary.create_file_writer(logdir)
-```
-
-
-In the preceding code, the directory for writing the logs is set, and if
-this directory does not already exist a new one will be created
-automatically in the working directory after you run the preceding code.
-The file writer object writes a file to the log directory when the logs
-are exported. To begin tracing, the following code must be executed:
-
-
-```
-tf.summary.trace_on(graph=True, profiler=True)
-```
-
-
-The preceding command turns on the trace that records the computation
-graph that occurs from the time the command is executed. Without turning
-on the trace, nothing is logged, and so, nothing can be visualized in
-TensorBoard. Once the tracing of the computational graph is complete,
-the logs can be written to the log directory using the file writer
-object, as follows:
-
-
-```
-with writer.as_default():
-    tf.summary.trace_export(name="my_func_trace",\
-                            step=0, profiler_outdir=logdir)
-```
-
-
-When writing the logs, you will need to employ the following parameters:
-
--   `name`: This parameter describes the name of the summary.
--   `step`: This parameter describes the monotonic step value
-    for the summary and can be set to `0` if the object does
-    not change over time.
--   `profiler_outdir`: This parameter describes the location
-    to write the logs and is required if not provided when the file
-    writer object is defined.
-
-After logs have been written to a directory, TensorBoard can be launched
-through the command line using the following command, thereby passing in
+TensorBoard can be launched through the command line using the following command, thereby passing in
 the directory for the logs as the `logdir` parameter:
 
 
 ```
-tensorboard --logdir=./logs
+mkdir -p ./logs && chmod -R 777 ./logs
+
+tensorboard --bind_all --logdir=./logs
 ```
 
-
-Some versions of Jupyter Notebooks allow TensorBoard to be run directly
-within the notebook. However, library dependencies and conflicts can
-often prevent TensorBoard from running in notebook environments, in
-which case you can launch TensorBoard in a separate process from the
-command line. In this book, you will be using TensorFlow version 2.6 and
-TensorBoard version 2.1, and you will always use the command line to
-launch TensorBoard.
 
 In the first exercise, you will learn how to use TensorBoard to
 visualize a graph process. You will create a function to perform tensor
@@ -295,18 +117,12 @@ Follow these steps:
     TensorBoard can be viewed in a web browser by visiting the URL that
     is provided after launching TensorBoard:
 
-    
-    ```
-    tensorboard --logdir=./logs
-    ```
+    **IMPORTANT** Make sure to run tensorboard from the same directory as your notebook and stop any other tensorboard running instances. Tensorboard will be available at `http://HOST:PORT`
 
-
-    For those running Windows, in the Anaconda prompt, run the
-    following:
-
-    
     ```
-    tensorboard --logdir=logs
+    mkdir -p ./logs && chmod -R 777 ./logs
+
+    tensorboard --bind_all --logdir=./logs
     ```
 
 
@@ -377,10 +193,6 @@ The steps you will take are as follows:
 
 
 
-
-Note
-
-The solution to this activity can be found via [this link].
 
 However, TensorBoard is not only for visualizing computational graphs.
 Images, scalar variables, histograms, and distributions can all be
@@ -521,21 +333,17 @@ Follow these steps:
     representation of the graph. TensorBoard can be viewed in a web
     browser by visiting the URL that is provided after launching
     TensorBoard. The default URL provided is
-    `http://localhost:6006/`:
+    `http://HOSTNAME:6006/`:
 
     
+    **IMPORTANT** Make sure to run tensorboard from the same directory as your notebook and stop any other tensorboard running instances. Tensorboard will be available at `http://HOST:PORT`
+
     ```
-    tensorboard --logdir=./logs
-    ```
-
-
-    For those running Windows, in the Anaconda prompt, run the
-    following:
-
+    mkdir -p ./logs && chmod -R 777 ./logs
     
+    tensorboard --bind_all --logdir=./logs
     ```
-    tensorboard --logdir=logs
-    ```
+
 
 
     Images in the directory will be displayed in TensorBoard as follows:
@@ -771,16 +579,9 @@ Follow these steps to complete this exercise:
 
     
     ```
-    tensorboard --logdir=./logs
-    ```
-
-
-    For those running Windows, in the Anaconda prompt, run the
-    following:
-
+    mkdir -p ./logs && chmod -R 777 ./logs
     
-    ```
-    tensorboard --logdir=logs
+    tensorboard --bind_all --logdir=./logs
     ```
 
 
@@ -816,74 +617,8 @@ servers.
 
 
 
-
-Google Colab
-============
-
-
-Google Colab enables users to execute code on Google servers and is
-designed specifically for data science practitioners to develop code for
-machine learning in a collaborative environment. The platform is
-available at [https://colab.research.google.com/] and offers
-an opportunity to develop in the Python programming language directly
-within a web browser with no code executing on your local machine. The
-environment comes pre-loaded with up-to-date libraries for data science
-and machine learning and offers a convenient alternative to setting up a
-development environment using Jupyter Notebooks. Moreover, the platform
-has a free tier that includes access to GPUs and TPUs, there is no
-configuration required, and sharing notebooks between collaborators is
-easy.
-
-Google Colab has a very similar development experience to Jupyter
-Notebooks, and there are some advantages and disadvantages of using
-Google Colab over Jupyter Notebooks.
-
-Advantages of Google Colab
---------------------------
-
-The following are a few of the main advantages of using Google Colab:
-
--   **Collaborative**: Many users can access the same notebook and work
-    collaboratively together.
--   **Managed environment**: Google Colab runs on Google servers, which
-    can be helpful if local computational resources are limited. There
-    is no need to set up a development environment since many packages
-    come pre-installed.
--   **Easy accessibility**: Google Colab saves directly to Google Drive,
-    offering seamless integration. Since the notebooks are saved in the
-    cloud, they are available wherever Google Drive can be accessed.
--   **Accelerated training times**: GPU and TPU servers are available,
-    which can offer accelerated training times for training machine
-    learning models, especially ANNs with many hidden layers.
--   **Interactive widgets**: Widgets can be added to a notebook that can
-    offer a way to easily vary input parameters and variables in an
-    interactive manner.
-
-Disadvantages of Google Colab
------------------------------
-
-The following are a few of the disadvantages of using Google Colab:
-
--   **Restrained runtime**: Only two versions of TensorFlow are
-    available on Google Colab, 1.X and 2.X, and they are updated, so
-    specific functions may change over time, resulting in broken code.
-    Additionally, the versions of TensorFlow may not interact well with
-    other packages.
--   **Internet dependence**: Since the Python code is executed on Google
-    servers, Google Colab can only be accessed with an internet
-    connection.
--   **No automatic save**: Notebooks must be saved consistently, which
-    is different from the automatic saving of Jupyter Notebooks.
--   **Session timeout**: Notebooks running on the virtual machines have
-    a maximum lifetime of 12 hours and environments that are left idle
-    for too long will be disconnected.
--   **Interactive library**: Libraries that contain interactive elements
-    such as OpenCV or `geoplotlib` may not be capable of
-    displaying interactive elements due to incompatibilities with the
-    pre-loaded libraries.
-
-Development on Google Colab
----------------------------
+Development on Google Colab (Optional)
+--------------------------------------
 
 Since Google Colab uses notebooks, the development environment is very
 similar to Jupyter Notebooks. In fact, IPython notebooks can be loaded
@@ -1098,10 +833,6 @@ Follow these steps:
 
 
 
-
-Note
-
-The solution to this activity can be found via [this link].
 
 This section introduced Google Colab, an online development environment
 used to run Python code on Google servers. This can allow any

@@ -1870,10 +1870,6 @@ benchmarking performance in machine learning research.
 
 
 
-Note
-
-The solution to this activity can be found via [this link].
-
 
 
 

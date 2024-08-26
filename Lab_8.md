@@ -663,10 +663,6 @@ The following steps will help you to complete this activity:
 
 
 
-Note
-
-The solution to this activity can be found via [this link].
-
 Now that you know how to use pre-trained models from TensorFlow, you
 will learn how models can be accessed from TensorFlow Hub in the
 following section.
@@ -857,10 +853,6 @@ The following steps will help you to complete this activity:
 
 The expected accuracy scores should be around `1.0` for the
 training and validation sets.
-
-Note
-
-The solution to this activity can be found via [this link].
 
 
 

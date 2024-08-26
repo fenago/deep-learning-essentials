@@ -837,10 +837,6 @@ The following steps will help you to complete the activity:
 
 
 
-Note
-
-The solution to this activity can be found via [this link].
-
 In the section ahead, you will see how to tune hyperparameters to
 achieve better results.
 
@@ -1598,10 +1594,6 @@ The following steps will help you to complete the activity:
 
 
 
-
-Note
-
-The solution to this activity can be found via [this link].
 
 
 
